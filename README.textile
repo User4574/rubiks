@@ -18,7 +18,7 @@ h2. Display
 
 @func (cube) String() string@ displays the cube in the form:
 
-pre..     UUU
+pre..      UUU
      UUU
      UUU
 LLL  FFF  RRR  BBB
