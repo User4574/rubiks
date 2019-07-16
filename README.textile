@@ -1,0 +1,31 @@
+h1. Rubiks
+
+A Rubiks cube library (rubiks/cube) and TUI (rubiks) written in Go.
+
+h2. Why?
+
+Because. Bored.
+
+h2. Coordinates
+
+Okay, this bit is weird because I was hacking it as I went. (0,0,0) is the right front top cubelet.
+
+- X-axis := Right to left
+- Y-axis := Front to back
+- Z-axis := Top to bottom
+
+h2. Display
+
+@func (cube) String() string@ displays the cube in the form:
+
+pre..     UUU
+     UUU
+     UUU
+LLL  FFF  RRR  BBB
+LLL  FFF  RRR  BBB
+LLL  FFF  RRR  BBB
+     DDD
+     DDD
+     DDD
+
+p. Note that this is the net of the cube, and so the rear face is mirrored right-to-left, as it has been unfolded around from the back.
